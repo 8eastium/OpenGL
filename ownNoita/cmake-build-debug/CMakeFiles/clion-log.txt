@@ -1,0 +1,7 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G Ninja /home/joe/CLionProjects/ownNoita
+-- Found GLFW3 in /usr/include
+-- GLM_INCLUDE_DIR = /home/joe/CLionProjects/ownNoita/include
+-- GLM included at /home/joe/CLionProjects/ownNoita/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/joe/CLionProjects/ownNoita/cmake-build-debug

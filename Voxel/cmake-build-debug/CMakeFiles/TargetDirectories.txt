@@ -1,0 +1,4 @@
+/home/joe/CLionProjects/Voxel/cmake-build-debug/CMakeFiles/Voxel.dir
+/home/joe/CLionProjects/Voxel/cmake-build-debug/CMakeFiles/GLAD.dir
+/home/joe/CLionProjects/Voxel/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joe/CLionProjects/Voxel/cmake-build-debug/CMakeFiles/rebuild_cache.dir

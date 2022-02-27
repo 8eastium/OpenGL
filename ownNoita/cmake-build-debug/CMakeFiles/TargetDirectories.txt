@@ -1,0 +1,4 @@
+/home/joe/CLionProjects/ownNoita/cmake-build-debug/CMakeFiles/oNoita.dir
+/home/joe/CLionProjects/ownNoita/cmake-build-debug/CMakeFiles/GLAD.dir
+/home/joe/CLionProjects/ownNoita/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joe/CLionProjects/ownNoita/cmake-build-debug/CMakeFiles/rebuild_cache.dir
