@@ -3,6 +3,7 @@
 //
 
 #include <vector>
+#include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -30,6 +31,7 @@ public:
         glDrawArrays(GL_TRIANGLES, 0, numverts);
     }
     void renderpoint(std::vector<float> vertices,int size, int numverts) {
+        //std::cout << "\nsize : " << sizeof(vertices) + (sizeof(float) * vertices.size());
         GLuint vbo;
         glGenBuffers(1, &vbo);
         glBindBuffer(GL_ARRAY_BUFFER, vbo);
@@ -45,6 +47,7 @@ public:
         glViewport(0, 0, 600, 600);
         glClear(GL_COLOR_BUFFER_BIT);
         glDrawArrays(GL_POINTS, 0, numverts);
+        vertices.clear();
     }
 };
 

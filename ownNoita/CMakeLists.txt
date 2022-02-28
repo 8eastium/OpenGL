@@ -21,7 +21,7 @@ file(GLOB_RECURSE HEADER_FILES
 include_directories(${CMAKE_BINARY_DIR}/src)
 
 # Define the executable
-add_executable(${PROJECT_NAME} ${HEADER_FILES} ${SOURCE_FILES})
+add_executable(${PROJECT_NAME} ${HEADER_FILES} ${SOURCE_FILES} src/shader.cpp src/shader.h)
 
 # We need a CMAKE_DIR with some code to find external dependencies
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
@@ -54,7 +54,7 @@ include_directories(
 		"${CMAKE_SOURCE_DIR}/src"
 		"${CMAKE_SOURCE_DIR}/include"
 		"${CMAKE_SOURCE_DIR}/include/glad"
-		"${CMAKE_SOURCE_DIR}/include/glm"
+		#"${CMAKE_SOURCE_DIR}/include/glm"
 )
 
 # Define the link libraries

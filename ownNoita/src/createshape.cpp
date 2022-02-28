@@ -15,7 +15,7 @@ void createrectangle(std::vector<float>& vertices, float size,float x, float y, 
 }
 
 void createpoint(std::vector<float>& pointarray, float x, float y,float z) {
-    pointarray.insert(pointarray.end(), {
-            x,y,z
-    });
+    pointarray.push_back(x);
+    pointarray.push_back(y);
+    pointarray.push_back(z);
 }
